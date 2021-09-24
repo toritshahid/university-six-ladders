@@ -1,0 +1,106 @@
+      <!--Home Page BODY-->
+      <!--==============-->
+      <!--MOBILE MENU CONTAINER - position:absolute; -->
+      <div id="mobile-check-activated">
+        <div class="mobile-link-container">
+           <div class="mobile-child-link-block">
+              <div class="search-container" id="mobile-search-block">
+                 <form action="#">
+                    <div class="flex-form-search">
+                       <div class="left-side-fl-search">
+                          <input type="text" placeholder="Search" class="seacrh-input-main">
+                       </div>
+                       <div class="right-side-fl-search">
+                        <img src="../../../assets/global_lib/img/layout/search.svg" alt="search icon">
+                         <!-- <img src="assets/global_lib/img/layout/search.svg" alt="search icon"> -->
+                       </div>
+                    </div>
+                 </form>
+              </div>
+           </div>
+           <div class="mobile-child-link-block">
+              <a href="#" class="mobile-menu-link-body">Career Coaching</a>
+           </div>
+           <div class="mobile-child-link-block">
+              <a href="#" class="mobile-menu-link-body">Featured Companies</a>
+           </div>
+           <div class="mobile-child-link-block">
+              <a href="#" class="mobile-menu-link-body">Blog</a>
+           </div>
+           <div class="mobile-child-link-block">
+              <a href="#" class="mobile-menu-link-body">Login / Signup</a>
+           </div>
+           <div class="mobile-child-link-block" id="mobile-button-v-container">
+              <a href="#" class="no-style-link">
+                 <div class="menu-big-button">
+                    Employers/Post a job
+                 </div>
+              </a>
+           </div>
+        </div>
+     </div>
+     <div class="page-container">
+        <div class="content-container"><!--Page content width wrap-->
+           <!--PC MENU VIEW-->
+           <div class="main-menu-container">
+              <!--LEFT SIDE MENU BLOCK (logo and search)-->
+              <!--==============-->
+              <div class="left-side-menu-container">
+                 <div class="left-menu-side-container-child">
+                    <div class="logo-menu-container">
+                       <a href="#">
+                          <img src="assets/global_lib/img/layout/logo.svg" alt="logo name" class="logo-main-body">
+                       </a>
+                    </div>
+                 </div>
+                 <div class="right-menu-side-container-child">
+                    <div class="search-container" id="pc-menu-search">
+                       <form action="#">
+                          <div class="flex-form-search">
+                             <div class="left-side-fl-search">
+                                <input type="text" placeholder="Search" class="seacrh-input-main">
+                             </div>
+                             <div class="right-side-fl-search">
+                               <img src="assets/global_lib/img/layout/search.svg" alt="search icon">
+                             </div>
+                          </div>
+                       </form>
+                    </div>
+                 </div>
+              </div>
+              <!--RIGHT SIDE MENU BLOCK (page url and post job button)-->
+              <!--==============-->
+              <div class="right-side-menu-container">
+                 <div class="menu-url-item-simple">
+                    <a href="collegeDashboard" class="menu-link">Career Coaching</a>
+                 </div>
+                 <div class="menu-url-item-simple">
+                    <a href="#" class="menu-link">Featured Companies</a>
+                 </div>
+                 <div class="menu-url-item-simple">
+                    <a href="#" class="menu-link">Blog</a>
+                 </div>
+                 <div class="menu-url-item-simple">
+                    <a href="#" class="menu-link">Login / Signup</a>
+                 </div>
+                 <div class="menu-url-item">
+                    <div class="button-bigger-container">
+                       <a href="#" class="no-style-link">
+                          <div class="menu-big-button">
+                             Employers/Post a job
+                          </div>
+                       </a>
+                    </div>
+                 </div>
+                 <div class="menu-url-item-burger no-select" id="toggle-mobile-burger">
+                    <div class="mobile-burger-body">
+                       <div class="line-burg"></div>
+                       <div class="line-burg"></div>
+                       <div class="line-burg"></div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="space-top-block"></div>
+        <router-outlet></router-outlet>

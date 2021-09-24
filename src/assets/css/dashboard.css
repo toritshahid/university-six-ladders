@@ -1,0 +1,196 @@
+
+/*RIGHT SIDE BLOCK*/
+/*=======================*/
+
+.flex-collge-dash-info-graph-container{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+
+.card-college-size-container{
+	display: block;
+	width: 100%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+}
+
+.download-repost-card-view{
+	display: block;
+	width: 100%;
+	padding: 10px 0px 20px 0px;
+	color: var(--slate);
+	font-family: 'basier_circleregular';
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+.download-repost-card-view:hover{
+	color: var(--algae);
+}
+
+.child-graph-main-block{
+	display: block;
+	width: 100%;
+	border: 1px solid #b9bfd0;
+	border-radius: 10px;
+	box-sizing: border-box;
+	min-height: 90%;
+	padding: 20px;
+	background-color: white;
+}
+
+.child-graph-main-block:hover{
+	box-shadow: 0 13px 18px -8px rgba(0, 0, 0, 0.15), 0 11px 55px 10px rgba(0, 0, 0, 0.07);
+  	border: solid 1px #b9bfd0;
+  	background-color: #ffffff;
+}
+
+.card-college-dash-header{
+	font-family: 'basier_circlebold';
+	font-size: 18px;
+	color: var(--slate);
+	padding-bottom: 17px;
+}
+
+.card-info-line-text{
+	font-family: 'basier_circleregular';
+	font-size: 16px;
+	color: var(--battleship-grey);
+	padding-bottom: 10px;
+}
+
+/*GRAPH CSS*/
+/*====================*/
+.flex-graph-college-dash-container{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 45px;
+}
+
+.graph-colunm-container-coll-dash{
+	display: block;
+	width: max-content;
+}
+
+.graphs-lines-container-flex{
+	display: flex;
+	width: max-content;
+	flex-wrap: wrap;
+	margin: 0px auto;
+}
+
+.green-graph-line-coll-dash{
+	display: block;
+	width: 6px;
+	min-height: 1px;
+	position: relative;
+}
+
+.blue-graph-line-coll-dash{
+	display: block;
+	width: 6px;
+	background-color: var(--slate);
+	min-height: 1px;
+}
+
+.coll-dash-graph-name{
+	font-family: 'basier_circleregular';
+	font-size: 16px;
+	color: #c4c4c4;
+}
+
+.green-line-coll-main-body-absolute{
+	display: block;
+	position: absolute;
+	width: 6px;
+	background-color: var(--algae);
+	bottom: 0px;
+}
+
+/*CIRCLE GRAPH*/
+/*-----------------------------------*/
+
+.card-college-dash-header-cirlce{
+	font-family: 'basier_circlebold';
+	font-size: 18px;
+	color: var(--slate);
+	padding-bottom: 5px;
+}
+
+.circele-graph-text-top{
+	font-family: 'basier_circleregular';
+	font-size: 14px;
+	color: #6e7176;
+}
+
+/* Circle Graph */
+.circle-graph-main-container{
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+.circular-chart {
+	display: block;
+	margin: 10px auto;
+	max-width: 60%;
+	max-height: 250px;
+}
+  
+#circle {
+	stroke: var(--algae);
+	fill: none;
+	stroke-width: 1.5;
+	transition: stroke-dasharray 1s ease-in-out , stroke-dashoffset 1s ease-in-out;
+}
+  
+.circle-2 {
+	stroke: #c4c4c4;
+	fill: none;
+	stroke-width: 0.5;
+}
+
+
+/*LAST COLL DASH CARD TYPE*/
+.card-coll-simple-flex-items-dash{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding-bottom: 10px;
+}
+
+.card-coll-simple-flex-items-dash p{
+	font-family: 'basier_circleregular';
+	font-size: 16px;
+	color: var(--battleship-grey);
+}
+
+.left-card-coll-simple-child{
+	display: block;
+	width: max-content;
+}
+
+.right-card-coll-simple-child{
+	display: block;
+	width: max-content;
+}
+
+@media(min-width: 680px){
+
+	.card-college-size-container{
+		width: 49%;
+	}
+	
+}
+
+
+@media(min-width: 925px){
+	.card-college-size-container{
+		width: 32.2%;
+	}
+
+}

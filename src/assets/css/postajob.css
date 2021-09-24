@@ -1,0 +1,136 @@
+.flex-posts-job-pst{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 57px;
+}
+
+.post-a-job-header-main{
+	font-size: 32px;
+	color: var(--slate);
+	font-family: 'basier_circlebold';
+	text-align: center;
+	padding: 60px 0px 75px 0px;
+}
+
+.left-pst-a-job-child{
+	display: block;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid var(--algae);
+	min-height: 10px;
+	padding: 30px 0px 60px 0px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.left-pst-a-job-child:hover{
+	border: 1px solid transparent;
+	box-shadow: 11px 4px 55px 0 rgba(0, 0, 0, 0.15);
+}
+
+.left-pst-a-job-child:hover .post-ajob-header-card{
+	color: var(--algae);
+}
+
+.right-pst-a-job-child{
+	display: block;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid var(--algae);
+	min-height: 10px;
+	padding: 30px 0px 60px 0px;
+	position: relative;
+}
+
+.right-pst-a-job-child:hover{
+	border: 1px solid transparent;
+	box-shadow: 11px 4px 55px 0 rgba(0, 0, 0, 0.15);
+}
+
+.right-pst-a-job-child:hover .post-ajob-header-card{
+	color: var(--algae);
+}
+
+.post-ajob-header-card{
+	font-size: 32px;
+	color: var(--slate);
+	font-family: 'basier_circlebold';
+	text-align: center;
+}
+
+.card-post-ajob-description{
+	font-size: 20px;
+	color: var(--battleship-grey);
+	font-family: 'basier_circlemedium';
+	text-align: center;
+}
+
+.left-card-pst-data-container{
+	display: block;
+	width: 90%;
+	margin: 0px auto;
+	padding: 144px 0px 144px 0px;
+}
+
+.right-card-pst-data-container{
+	display: block;
+	width: 90%;
+	margin: 0px auto;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.card-post-ajob-description-right{
+	font-size: 20px;
+	color: var(--battleship-grey);
+	font-family: 'basier_circlemedium';
+	padding: 0px 0px 20px 0px;
+	text-align: center;
+}
+
+.select-post-ajob-card-button{
+	transform: translate(-50%);
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	display: block;
+	width: 190px;
+	height: 44px;
+	line-height: 44px;
+	border-radius: 22px;
+	background-color: var(--algae);
+	color: white;
+	text-align: center;
+	font-family: 'basier_circlemedium';
+	font-size: 20px;
+	transition: all 0.5s ease-in-out;
+}
+
+.select-post-ajob-card-button:hover{
+	letter-spacing: 0.5px;
+	background-color: var(--slate);
+}
+
+@media(min-width:999px){
+	.left-pst-a-job-child{
+		width: 45%;
+		margin-bottom: 0px;
+	}
+	
+	
+	.right-pst-a-job-child{
+		width: 45%;
+		margin-bottom: 0px;
+	}
+
+	.right-card-pst-data-container{
+		width: 60%;
+	}
+
+	.left-card-pst-data-container{
+		width: 60%;
+	}
+}

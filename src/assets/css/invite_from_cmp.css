@@ -1,0 +1,186 @@
+.blue-card-invite-from-comp{
+	display: block;
+    background-color: #f6f8f7;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.invt-from-cmp-flex-top-header{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.left-side-inv-cmp{
+	display: block;
+	width: max-content;
+}
+
+.right-side-inv-cmp{
+	display: block;
+	width: max-content;
+}
+
+.invt-header-card-text{
+	font-family: 'basier_circlebold';
+	font-size: 20px;
+	color: var(--slate);
+}
+
+.invt-header-card-time{
+	font-family: 'basier_circleregular';
+	font-size: 12px;
+	color: var(--battleship-grey);
+	padding-top: 6px;
+}
+
+.invt-indut-loc-text{
+	font-family: 'basier_circleregular';
+	font-size: 14px;
+	color: var(--slate);
+	padding: 10px 0px;
+}
+
+.invt-indut-loc-text span{
+	color: var(--battleship-grey);
+	font-size: 12px;
+}
+
+.invt-cmp-flex-text-buttons-container{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.left-side-invt-text-block{
+	display: block;
+	width: max-content;
+}
+
+.right-side-invt-text-block{
+	display: flex;
+	width: 100%;
+	max-width: 100%;
+	flex-wrap: wrap;
+	padding-top: 15px;
+}
+
+.button-container-card-invt{
+	display: block;
+	width: 100%;
+}
+
+.pop-up-containt-info-text-from{
+	display: flex;
+	width: max-content;
+	color: var(--battleship-grey);
+	font-family: 'basier_circleregular';
+	font-size: 14px;
+	padding-bottom: 3px;
+}
+
+.left-side-info-pop-cont-from{
+	display: block;
+	width: max-content;
+}
+
+.left-side-info-pop-cont-from img{
+	margin-top: 4px;
+}
+
+.button-from-invite-cmp-card-one{
+	display: block;
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid var(--slate);
+	color: var(--slate);
+	font-family: 'basier_circlesemibold';
+	text-align: center;
+	border-radius: 22px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	transition: all 0.5s ease-in-out;
+}
+
+.button-from-invite-cmp-card-two{
+	display: block;
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #ff6353;
+	color: #ff6353;
+	font-family: 'basier_circlesemibold';
+	text-align: center;
+	border-radius: 22px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	transition: all 0.5s ease-in-out;
+}
+
+.button-from-invite-cmp-card-three{
+	display: block;
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid var(--algae);
+	color: var(--algae);
+	font-family: 'basier_circlesemibold';
+	text-align: center;
+	border-radius: 22px;
+	transition: all 0.5s ease-in-out;
+}
+
+.button-from-invite-cmp-card-one:hover{
+	background-color: var(--slate);
+	color: white;
+}
+
+.button-from-invite-cmp-card-two:hover{
+	background-color: #ff6353;
+	color: white;
+}
+
+.button-from-invite-cmp-card-three:hover{
+	background-color: var(--algae);
+	color: white;
+}
+
+@media(min-width: 678px){
+	.right-side-invt-text-block{
+		width: max-content;
+		padding-top: 0px;
+	}
+	
+	.button-container-card-invt{
+		width: max-content;
+	}
+
+	.button-from-invite-cmp-card-one{
+		width: 130px;
+	}
+	
+	.button-from-invite-cmp-card-two{
+		width: 130px;
+	}
+	
+	.button-from-invite-cmp-card-three{
+		width: 130px;
+	}
+	
+}
+
+@media(min-width: 760px){
+	.button-from-invite-cmp-card-one{
+		margin-bottom: 0px;
+	}
+	
+	.button-from-invite-cmp-card-two{
+		margin-bottom: 0px;
+	}
+	
+}

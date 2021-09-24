@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('assets/css/applications.css');
+@import url('assets/css/applications_user.css');
+@import url('assets/css/bymajor.css');
+@import url('assets/css/dashboard.css');
+@import url('assets/css/invite_from_cmp.css');
+@import url('assets/css/layout.css');
+@import url('assets/css/messages.css');
+@import url('assets/css/newjobs.css');
+@import url('assets/css/newjobs_full_profile.css');
+@import url('assets/css/postajob.css');
+@import url('assets/css/poup_up.css');
+@import url('assets/css/studentsplaced.css');
+@import url('assets/css/top_serach.css');
+@import url('assets/css/upload_information.css');
+@import url('assets/global_lib/carousel/slick-1.8.1/slick/slick.css');
+@import url('assets/global_lib/carousel/slick-1.8.1/slick/slick.css');
+@import url('assets/global_lib/css/blog.css');
+@import url('assets/global_lib/css/blog_post.css');
+@import url('assets/global_lib/css/careercoaching.css');
+@import url('assets/global_lib/css/featuredcompanies.css');
+@import url('assets/global_lib/css/slider.css');
+@import url('assets/global_lib/css/homepage.css');
+@import url('assets/global_lib/css/layout.css');
+@import url('assets/global_lib/css/pagination.css');

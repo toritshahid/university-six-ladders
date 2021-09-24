@@ -1,0 +1,287 @@
+.by-major-rihgt-white-container{
+	display: block;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+	padding: 30px 15px 20px 15px;
+	box-sizing: border-box;
+}
+
+.inside-data-right-container-major{
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+.flex-card-right-major-container{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 17px;
+}
+
+.main-card-major-header{
+	font-family: 'basier_circlebold';
+	font-size: 20px;
+	color: var(--slate);
+}
+
+.main-select-maj{
+	border: none;
+	font-family: 'basier_circleregular';
+	font-size: 14px;
+	color: var(--battleship-grey);
+}
+
+.main-label{
+	font-family: 'basier_circlesemibold';
+	font-size: 14px;
+	color: var(--slate);
+}
+
+.top-rect-flex-container{
+	display: flex;
+	width: max-content;
+	flex-wrap: nowrap;
+}
+
+/* STUDENTS BASED NEW CSS*/
+/*===================*/
+.stunet-text-what-kindof{
+	font-size: 14px;
+	font-family: 'basier_circlebold';
+	color: var(--slate);
+	padding-bottom: 17px;
+}
+
+.stunet-text-what-kindof span{
+	font-family: 'basier_circleregular' !important;
+}
+
+.student-text-undergadued{
+	font-size: 18px;
+	font-family: 'basier_circlebold';
+	color: var(--slate);
+	padding-bottom: 5px;
+}
+
+.student-text-undergadued-amount{
+	font-size: 16px;
+	font-family: 'basier_circleregular';
+	color: var(--battleship-grey);
+}
+
+.circle-graph-container-stud{
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+	position: relative;
+}
+
+/*GRAPH*/
+/*====================*/
+
+
+.card-college-dash-header-cirlce{
+	font-family: 'basier_circlebold';
+	font-size: 18px;
+	color: var(--slate);
+	padding-bottom: 5px;
+}
+
+.circele-graph-text-top{
+	font-family: 'basier_circleregular';
+	font-size: 14px;
+	color: #6e7176;
+}
+
+/* Circle Graph */
+.circle-graph-main-container{
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+.circular-chart {
+	display: block;
+	margin: 10px auto;
+	max-width: 90%;
+	max-height: 250px;
+}
+  
+#circle {
+	stroke: var(--algae);
+	fill: none;
+	stroke-width: 1.5;
+	transition: stroke-dasharray 1s ease-in-out , stroke-dashoffset 1s ease-in-out;
+}
+  
+.circle-2 {
+	stroke: #c4c4c4;
+	fill: none;
+	stroke-width: 0.5;
+}
+
+.absolute-text-stud-graph-container{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: max-content;
+	height: max-content;
+}
+
+.percent-circle-inside{
+	font-family: 'basier_circlebold';
+	font-size: 50px;
+	color: var(--algae);
+	text-align: center;
+}
+
+.percent-circle-inside-description{
+	font-family: 'basier_circlemedium';
+	font-size: 12px;
+	color: var(--slate);
+	text-align: center;
+}
+
+/*LINBE BASED GRAPH*/
+/*===================================*/
+.line-based-graph-container{
+	display: block;
+	width: 90%;
+	margin: 0px auto;
+	padding: 50px 0px;
+}
+
+.line-graph-first-rectangle{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.left-side-grpag-containers-child{
+	display: block;
+	width: 10%;
+}
+
+.right-side-grpag-containers-child{
+	display: block;
+	box-sizing: border-box;
+	width: 90%;
+	border-left: 3px solid #e6ebeb;
+	border-bottom: 3px solid #e6ebeb;
+	position: relative;
+}
+
+.period-number-line-left{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: 'basier_circleregular';
+	font-size: 10px;
+	color: var(--slate);
+	padding: 50px 0px 0px 0px;
+}
+
+/*GRAPH CSS*/
+/*====================*/
+.graphs-flex-inside-container{
+	position: absolute;
+	left: 5%;
+	right: 0px;
+	bottom: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	height: max-content;
+	justify-content: space-between;
+}
+
+.flex-graph-college-dash-container{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 45px;
+}
+
+.graph-colunm-container-coll-dash{
+	display: block;
+	width: max-content;
+}
+
+.graphs-lines-container-flex{
+	display: flex;
+	width: max-content;
+	flex-wrap: wrap;
+	margin: 0px auto;
+}
+
+.green-graph-line-coll-dash{
+	display: block;
+	width: 12px;
+	min-height: 1px;
+	position: relative;
+}
+
+.blue-graph-line-coll-dash{
+	display: block;
+	width: 12px;
+	background-color: var(--slate);
+	min-height: 1px;
+}
+
+.green-line-coll-main-body-absolute{
+	display: block;
+	position: absolute;
+	width: 12px;
+	background-color: var(--algae);
+	bottom: 0px;
+}
+
+.flex-offered-show-color{
+	display: flex;
+	width: max-content;
+	padding: 30px 0px;
+}
+
+.left-side-color-off-m{
+	display: flex;
+	width: max-content;
+	margin-right: 30px;
+}
+
+.right-side-color-off-m{
+	display: flex;
+	width: max-content;
+}
+
+.rect-off-m-color{
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-color: grey;
+}
+
+.rect-off-m-number{
+	font-family: 'basier_circleregular';
+	font-size: 20px;
+	color: var(--slate);
+	padding-left: 20px;
+}
+
+
+@media(min-width: 824px){
+
+	.period-number-line-left{
+		font-size: 20px;
+	}
+
+	.by-major-rihgt-white-container{
+		padding: 30px 30px 20px 30px;
+	}
+}

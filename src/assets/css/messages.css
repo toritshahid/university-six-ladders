@@ -1,0 +1,353 @@
+.blue-card-messages{
+	display: block;
+    background-color: #f6f8f7;
+    border-radius: 10px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.card-msg-flex-container{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.left-side-child-crd-msg{
+	display: block;
+	width: max-content;
+}
+
+.right-side-child-crd-msg{
+	display: block;
+	width: max-content;
+}
+
+.mail-subject-msg-crd{
+	color: var(--slate);
+	font-size: 20px;
+	font-family: 'basier_circlebold';
+	padding-bottom: 10px;
+}
+
+.msg-time-reminder-crd{
+	padding-top: 7px;
+	color: var(--battleship_grey);
+	font-size: 12px;
+	font-family: 'basier_circleregular';
+}
+
+.msg-email-text{
+	font-size: 14px;
+	color: var(--slate);
+	font-family: 'basier_circleregular';
+	padding-bottom: 23px;
+}
+
+.card-msg-flex-container-two{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.left-side-child-crd-msg-two{
+	display: block;
+	width: 100%;
+}
+
+.right-side-child-crd-msg-two{
+	display: block;
+	width: 100%;
+}
+
+.msg-card-main-mess-body{
+	width: 100%;
+	font-size: 14px;
+	color: #6e7176;
+	font-family: 'basier_circleregular';
+	display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.reply-button-main-block{
+	display: block;
+	width: max-content;
+	padding: 11px 49px;
+	background-color: var(--algae);
+	border-radius: 22px;
+	color: white;
+	font-family: 'basier_circlesemibold';
+	transition: all 0.5s ease-in-out;
+	font-size: 12px;
+}
+
+.reply-button-main-block-replied{
+	font-size: 12px;
+	display: block;
+	width: max-content;
+	padding: 11px 49px;
+	background-color: #e6ebeb;
+	border-radius: 22px;
+	color: #6e7176;
+	font-family: 'basier_circlesemibold';
+	transition: all 0.5s ease-in-out;
+}
+
+.reply-button-main-block:hover{
+	background-color: var(--slate);
+}
+
+.reply-button-main-block-replied:hover{
+	background-color: #8b8b8b;
+	color: white;
+}
+
+.button-container-main-relpy{
+	display: block;
+	width: 100%;
+	padding-top: 15px;
+}
+
+/* REPLY MESSAGES CSS*/
+/*------------------------------*/
+
+.view-more-msg-button{
+	display: block;
+	width: max-content;
+	margin: 0px auto;
+	text-align: center;
+	color: #6e7176;
+	font-size: 11px;
+	font-family: 'basier_circleregular';
+}
+
+.view-more-msg-button:hover{
+	color: var(--algae);
+}
+
+.view-more-msg-button p{
+	padding: 0px;
+	margin: 0px;
+}
+
+.up-msg-view-but{
+	width: 100%;
+}
+
+.up-msg-view-but span{
+	display: block;
+	position: relative;
+	width: max-content;
+	margin: 0px auto;
+	font-size: 20px;
+	transform: rotate(90deg);
+}
+
+.user-info-messgae-container-reply{
+	display: block;
+	width: 100%;
+	border-bottom: 3px solid white;
+	padding: 12px 0px;
+}
+
+.flex-data-top-row-info{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.left-child-data-info-msg-rp{
+	display: flex;
+	width: max-content;
+	order: 2;
+}
+
+.right-child-data-info-msg-rp{
+	display: block;
+	width: max-content;
+	order: 1;
+	padding-bottom: 10px;
+}
+
+.time-msg-avali-msg-rp{
+	font-size: 12px;
+	font-family: 'basier_circleregular';
+	color: #6e7176;
+}
+
+.sp-child-usr-data-left{
+	display: block;
+	width: max-content;
+	margin-right: 15px;
+}
+
+.sp-child-usr-data-right{
+	display: block;
+	width: max-content;
+}
+
+.user-avatar-msg-repl{
+	display: block;
+	width: 67px;
+	height: 68px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.subject-title-msg-rp{
+	font-size: 20px;
+	font-family: 'basier_circlebold';
+	color: var(--slate);
+}
+
+.subject-comp-name-msg-rp{
+	font-size: 16px;
+	font-family: 'basier_circlesemibold';
+	color: var(--slate);
+	padding-top: 5px;
+}
+
+.subject-comp-name-msg-rp span{
+	display: block;
+	font-size: 14px;
+	font-family: 'basier_circleregular';
+	color: var(--slate);
+}
+
+.message-main-txt-body{
+	padding-top: 15px;
+	width: 100%;
+	font-size: 14px;
+	font-family: 'basier_circleregular';
+	color: #6e7176;
+}
+
+.message-main-txt-body a{
+	color: var(--slate) !important;
+	font-family: 'basier_circlemedium';
+	text-decoration: underline;
+}
+
+.reply-msg-title-txt{
+	color: var(--slate);
+	font-family: 'basier_circlesemibold';
+	font-size: 14px;
+	padding: 15px 0px 5px 0px;
+}
+
+.white-inputs-back-container{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.subject-title-message{
+	display: block;
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #b4b8bf;
+	font-family: 'basier_circleregular';
+	font-size: 16px;
+	color: var(--slate);
+	height: 30px;
+}
+
+.subject-title-message::placeholder{
+	color: #b4b8bf;
+}
+
+.message-body-main{
+	width: 100%;
+	font-family: 'basier_circleregular';
+	font-size: 16px;
+	color: var(--slate);
+	margin-top: 13px;
+	border: none;
+}
+
+.message-body-main::placeholder{
+	color: #b4b8bf;
+}
+
+.send-msg-main-button{
+	display: block;
+	width: max-content;
+	padding: 11px 50px;
+	color: white;
+	border-radius: 22px;
+	background-color: var(--algae);
+	margin: 30px 0px 0px auto;
+	border: none;
+	font-family: 'basier_circlesemibold';
+	font-size: 11.5px;
+	transition: all 0.5s ease-in-out;
+	cursor: pointer;
+}
+
+.send-msg-main-button:hover{
+	background-color: var(--slate);
+}
+
+@media(min-width:678px){
+	.left-side-child-crd-msg-two{
+		width: 70%;
+	}
+	
+	.right-side-child-crd-msg-two{
+		width: 30%;
+	}
+
+	.button-container-main-relpy{
+		padding-top: 0px;
+	}
+
+	.reply-button-main-block{
+		margin: 0px 0px 0px auto;
+	}
+
+	.reply-button-main-block-replied{
+		margin: 0px 0px 0px auto;
+	}
+
+	.white-inputs-back-container{
+		padding: 30px;
+	}
+
+	.blue-card-messages{
+		padding: 15px 30px;
+	}
+
+}
+
+@media(min-width: 500px){
+	/*MSG REPLY*/
+	/*--------------------------*/
+	.subject-comp-name-msg-rp span{
+		display: inline-block;
+	}
+}
+
+@media(min-width: 460px){
+	/*MSG REPLY*/
+	/*--------------------------*/
+
+	.left-child-data-info-msg-rp{
+		order: 1;
+	}
+	
+	.right-child-data-info-msg-rp{
+		order: 2;
+	}
+}

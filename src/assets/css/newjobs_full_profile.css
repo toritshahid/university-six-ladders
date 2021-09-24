@@ -1,0 +1,284 @@
+.by-major-rihgt-white-container{
+	display: block;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+	padding: 30px 15px 20px 15px;
+	box-sizing: border-box;
+}
+
+.inside-data-right-container-major{
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+.flex-card-right-major-container{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 17px;
+}
+
+.main-card-major-header{
+	font-family: 'basier_circlebold';
+	font-size: 20px;
+	color: var(--slate);
+}
+
+.main-card-major-header span{
+	font-family: 'basier_circleregular' !important;
+	font-size: 20px;
+	color: var(--slate);
+}
+
+.main-select-maj{
+	border: none;
+	font-family: 'basier_circleregular';
+	font-size: 14px;
+	color: var(--battleship-grey);
+}
+
+.main-label{
+	font-family: 'basier_circlesemibold';
+	font-size: 14px;
+	color: var(--slate);
+}
+
+.top-rect-flex-container{
+	display: block;
+	width: 100%;
+}
+
+/* STUDENTS BASED NEW CSS*/
+/*===================*/
+.stunet-text-what-kindof{
+	font-size: 14px;
+	font-family: 'basier_circlebold';
+	color: var(--slate);
+	padding-bottom: 17px;
+}
+
+.stunet-text-what-kindof span{
+	font-family: 'basier_circleregular' !important;
+}
+
+.student-text-undergadued{
+	font-size: 18px;
+	font-family: 'basier_circlebold';
+	color: var(--slate);
+	padding-bottom: 5px;
+}
+
+
+.full-job-page-back-text{
+	font-family: 'basier_circleregular';
+	font-size: 14px;
+	color: var(--slate);
+	padding-top: 2px;
+}
+
+.full-job-header-main{
+	font-size: 20px;
+	font-family: 'basier_circleregular';
+	color: var(--slate);
+	padding-bottom: 20px;
+}
+
+.full-job-header-main span{
+	font-family: 'basier_circlebold';
+}
+
+.blue-card-new-jobs-container{
+	display: block;
+	background-color: var(--ice);
+	border-radius: 10px;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+}
+
+.card-full-job-flex-container{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.left-side-full-job-child{
+	display: block;
+	width: max-content;
+}
+
+.right-side-full-job-child{
+	display: block;
+	width: max-content;
+}
+
+.card-nw-jbs-main-text-count-jobs{
+	font-size: 14px;
+	font-family: 'basier_circlesemibold';
+	color: var(--algae);
+	padding-top: 6px;
+}
+.card-nw-jbs-main-text-count-jobs span{
+	color: var(--slate);
+}
+
+.card-nw-jbs-main-text-count-jobs  .card-right-thin-text{
+	font-family: 'basier_circleregular' !important;
+	color: var(--battleship-grey);
+}
+
+.card-nw-jbs-main-text-count-jobs-closed{
+	font-size: 14px;
+	font-family: 'basier_circlesemibold';
+	color: #6e7176;
+	padding-top: 6px;
+}
+
+.card-nw-jbs-main-text-count-jobs-closed .main-job-name-full{
+	font-family: 'basier_circlebold';
+	font-size: 20px;
+	color: var(--slate);
+}
+
+.main-job-name-full{
+	font-size: 20px;
+	color: var(--slate);
+	font-family: 'basier_circlebold';
+}
+
+.indusrty-rect-full-jobs{
+	padding: 3px 6px;
+	border-radius: 3px;
+	color: rgba(95, 89, 247, 0.7);
+	text-align: center;
+	font-family: 'basier_circleregular';
+	background-color: rgba(95, 89, 247, 0.1);
+	font-size: 9.4px;
+	margin-top: 12px;
+}
+
+.nws-jobs-about-local{
+	padding-top: 5px;
+	font-size: 14px;
+	font-family: 'basier_circlesemibold';
+	color: var(--slate);
+}
+
+.nws-jobs-about-local span{
+	font-size: 12px;
+	font-family: 'basier_circleregular';
+	color: var(--battleship-grey);
+}
+
+.nws-jobs-main-description{
+	font-size: 12px;
+	font-family: 'basier_circleregular';
+	color: var(--battleship-grey);
+	padding-top: 5px;
+}
+
+.contact-info-header-nws-jobs{
+	font-size: 14px;
+	font-family: 'basier_circlesemibold';
+	color: var(--slate);
+	padding-top: 20px;
+	padding-bottom: 12px;
+}
+
+.nws-contact-text-info{
+	font-size: 12px;
+	font-family: 'basier_circleregular';
+	color: var(--battleship-grey);
+	padding-bottom: 5px;
+}
+
+.jobs-available-nws{
+	font-size: 14px;
+	font-family: 'basier_circlesemibold';
+	color: var(--slate);
+	padding-bottom: 10px;
+}
+
+.simple-nws-jobs-card-flex-header{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.left-side-simple-header{
+	display: block;
+	width: max-content;
+}
+
+.right-side-simple-header{
+	display: block;
+	width: max-content;
+}
+
+.company-simple-header-name{
+	font-size: 20px;
+	font-family: 'basier_circlebold';
+	color: var(--slate);
+}
+
+.company-simple-header-name span{
+	font-size: 12px;
+	font-family: 'basier_circlesemibold';
+	color: var(--algae);
+}
+
+.company-simple-header-name-closed{
+	font-size: 20px;
+	font-family: 'basier_circlebold';
+	color: var(--battleship-grey);
+}
+
+.posted-at-simple-card-time{
+	font-size: 12px;
+	font-family: 'basier_circleregular';
+	color: var(--battleship-grey);
+	padding-top: 9px;
+}
+
+.simple-card-nws-location{
+	font-size: 12px;
+	font-family: 'basier_circleregular';
+	color: var(--battleship-grey);
+	padding-top: 5px;
+}
+
+.simple-card-nws-texdescr{
+	display: block;
+	width: 100%;
+	font-size: 12px;
+	font-family: 'basier_circleregular';
+	color: var(--battleship-grey);
+	padding: 20px 0px;
+}
+
+.simple-card-nws-texdescr a{
+	color: var(--slate);
+	text-decoration: underline;
+}
+
+
+@media(min-width: 824px){
+	.jbs-pagination-container{
+		width: max-content;
+		margin: 0px 0px 0px auto;
+	}
+
+	.by-major-rihgt-white-container{
+		padding: 30px 30px 20px 30px;
+	}
+
+	.simple-card-nws-texdescr{
+		width: 60%;
+	}
+
+}

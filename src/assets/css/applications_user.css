@@ -1,0 +1,83 @@
+.blue-card-applications-user{
+	display: block;
+    background-color: #f6f8f7;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.flex-uder-appl-info{
+	display: flex;
+	width: max-content;
+	max-width: 100%;
+	flex-wrap: wrap;
+}
+
+.left-side-user-info-app{
+	display: block;
+	width: max-content;
+	margin-right: 10px;
+}
+
+.right-side-user-info-app{
+	display: block;
+	width: max-content;
+}
+
+.user-apll-main-avatar{
+	display: block;
+	width: 54px;
+	height: 54px;
+	border-radius: 50%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.user-crad-main-name-txt{
+	display: block;
+	width: max-content;
+	color: var(--slate);
+	font-size: 20px;
+	font-family: 'basier_circlebold';
+	padding-top: 14px;
+}
+
+.user-crad-main-name-txt span{
+	color: var(--algae);
+}
+
+.human-name-appl-text{
+	font-size: 16px;
+	font-family: 'basier_circlebold';
+	padding-top: 20px;
+	color: var(--slate);
+}
+
+.student-info-row-txt{
+	font-size: 14px;
+	font-family: 'basier_circleregular';
+	color: var(--battleship-grey);
+	padding-top: 10px;
+}
+
+.student-info-row-txt span{
+	font-size: 14px;
+	font-family: 'basier_circlesemibold';
+	color: var(--slate);
+}
+
+.summary-header-txt{
+	font-size: 14px;
+	font-family: 'basier_circleregular';
+	color: var(--battleship-grey);
+	padding-top: 10px;
+}
+
+.summary-body-txt{
+	font-size: 14px;
+	font-family: 'basier_circleregular';
+	color: var(--slate);
+	padding-top: 5px;
+}

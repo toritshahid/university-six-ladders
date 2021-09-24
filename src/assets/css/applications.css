@@ -1,0 +1,94 @@
+.blue-card-applications{
+	display: block;
+    background-color: #f6f8f7;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.appl-card-top-flex{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.left-child-appl-card-top{
+	display: flex;
+	width: max-content;
+	max-width: 100%;
+	flex-wrap: wrap;
+}
+
+.right-child-appl-card-top{
+	display: block;
+	width: max-content;
+	color: var(--slate);
+	font-size: 12px;
+	font-family: 'basier_circleregular';
+	padding-top: 15px;
+}
+
+.right-child-appl-card-top a:hover{
+	text-decoration: underline;
+}
+
+.left-side-child-flex-appl-info{
+	display: block;
+	width: max-content;
+}
+
+.right-side-child-flex-appl-info{
+	display: block;
+	width: max-content;
+	
+}
+
+.avatar-block-apll-card{
+	width: 54px;
+	height: 54px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:center center;
+}
+
+.user-name-apll-card{
+	padding-top: 10px;
+	font-size: 16px;
+	color: var(--slate);
+	font-family: 'basier_circlebold';
+}
+
+.user-name-apll-card span{
+	font-size: 14px;
+	color: var(--slate);
+	font-family: 'basier_circlemedium';
+}
+
+.user-name-apll-card .yes-icon{
+	color: var(--algae) !important;
+}
+
+.user-id-apll-card{
+	padding-top: 6px;
+	font-size: 12px;
+	color: var(--battleship-grey);
+	font-family: 'basier_circleregular';
+}
+
+@media(min-width: 359px){
+	.right-side-child-flex-appl-info{
+		padding-left: 10px;
+	}
+
+	
+}
+
+@media(min-width: 678px){
+
+	.right-child-appl-card-top{
+		padding-top: 0px;
+	}
+	
+}

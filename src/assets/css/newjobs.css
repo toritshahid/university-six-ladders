@@ -1,0 +1,630 @@
+.by-major-rihgt-white-container{
+	display: block;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+	padding: 30px 15px 20px 15px;
+	box-sizing: border-box;
+}
+
+.inside-data-right-container-major{
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+.flex-card-right-major-container{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 17px;
+}
+
+.main-card-major-header{
+	font-family: 'basier_circlebold';
+	font-size: 20px;
+	color: var(--slate);
+}
+
+.main-card-major-header span{
+	font-family: 'basier_circleregular' !important;
+	font-size: 20px;
+	color: var(--slate);
+}
+
+.main-select-maj{
+	border: none;
+	font-family: 'basier_circleregular';
+	font-size: 14px;
+	color: var(--battleship-grey);
+}
+
+.main-label{
+	font-family: 'basier_circlesemibold';
+	font-size: 14px;
+	color: var(--slate);
+}
+
+.top-rect-flex-container{
+	display: block;
+	width: 100%;
+	padding-top: 16px;
+	box-sizing: border-box;
+}
+
+/* STUDENTS BASED NEW CSS*/
+/*===================*/
+.stunet-text-what-kindof{
+	font-size: 14px;
+	font-family: 'basier_circlebold';
+	color: var(--slate);
+	padding-bottom: 17px;
+}
+
+.stunet-text-what-kindof span{
+	font-family: 'basier_circleregular' !important;
+}
+
+.student-text-undergadued{
+	font-size: 18px;
+	font-family: 'basier_circlebold';
+	color: var(--slate);
+	padding-bottom: 5px;
+}
+
+/*NEW JOBS CSS*/
+
+.blue-card-new-jobs-container{
+	display: block;
+	background-color: var(--ice);
+	border-radius: 10px;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+}
+
+.new-jobs-card-flex-header{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.nw-jbs-left-child-header{
+	display: block;
+	width: max-content;
+}
+
+.nw-jbs-right-child-header{
+	display: block;
+	width: max-content;
+}
+
+.nw-jbs-right-child-header a{
+	text-decoration: underline;
+}
+
+.card-nw-jbs-main-text-header{
+	font-size: 20px;
+	font-family: 'basier_circlebold';
+	color: var(--slate);
+}
+
+.card-nw-jbs-main-text-header-closed{
+	font-size: 20px;
+	font-family: 'basier_circlebold';
+	color: #8f9197;
+}
+
+.card-nw-jbs-main-text-count-jobs{
+	font-size: 14px;
+	font-family: 'basier_circlesemibold';
+	color: var(--algae);
+	padding-top: 6px;
+}
+
+.card-nw-jbs-main-text-count-jobs-open{
+	font-size: 14px;
+	font-family: 'basier_circlesemibold';
+	color: var(--algae);
+	padding-top: 6px;
+}
+
+.card-nw-jbs-main-text-count-jobs-closed{
+	font-size: 14px;
+	font-family: 'basier_circlesemibold';
+	color: #8f9197;
+	padding-top: 6px;
+}
+
+.card-nw-jbs-main-text-count-jobs-closed:hover{
+	color: var(--slate);
+}
+
+.card-nw-jbs-main-text-count-jobs span{
+	color: var(--slate);
+}
+
+.card-nw-jbs-main-text-count-jobs  .card-right-thin-text{
+	font-family: 'basier_circleregular' !important;
+	color: var(--battleship-grey);
+}
+
+.new-jobs-inducrty-text{
+	font-size: 14px;
+	font-family: 'basier_circlesemibold';
+	color: var(--slate);
+	padding: 15px 0px;
+}
+
+.new-jobs-inducrty-text span{
+	font-size: 12px;
+	font-family: 'basier_circleregular' !important;
+	color: var(--battleship-grey);
+}
+
+.news-jobs-job-main-name-text{
+	font-family: 'basier_circleregular';
+	font-size: 14px;
+	color: var(--slate);
+	padding-bottom: 5px;
+}
+
+/*PAGINATION CONTAINER*/
+.jbs-pagination-container{
+	display: block;
+	width: 100%;
+	margin: 0px auto 0px auto;
+	padding: 20px 0px 0px 0px;
+}
+
+/* MY COMPANIES*/
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+.stunet-text-what-kindof-mycomp{
+	font-size: 14px;
+	font-family: 'basier_circlebold';
+	color: var(--slate);
+	padding-top: 6px;
+}
+
+.stunet-text-what-kindof-mycomp span{
+	font-family: 'basier_circleregular' !important;
+}
+
+.blue-card-my-comps-container{
+	display: block;
+    background-color: var(--ice);
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.flex-my-comp-container{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.left-side-comp-my-child{
+	display: block;
+	width: 100%;
+	padding-top: 10px;
+	margin-right: 30px;
+}
+
+.right-side-comp-my-child{
+	display: block;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.right-side-comp-my-child-buttons{
+	display: flex;
+	width: 100%;
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+
+.my-comp-avatar-image{
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 10px;
+}
+
+.my-comp-name{
+	font-size: 20px;
+	font-family: 'basier_circlebold';
+	color: var(--slate);
+	padding: 0px 0px 10px 0px;
+}
+
+.my-comp-contact-name{
+	font-size: 16px;
+	font-family: 'basier_circlesemibold';
+	color: var(--slate);
+	padding: 0px 0px 5px 0px;
+}
+
+.my-comp-contact{
+	font-size: 14px;
+	font-family: 'basier_circlesemibold';
+	color: var(--slate);
+	padding: 0px 0px 5px 0px;
+}
+
+.my-comp-email{
+	font-size: 14px;
+	font-family: 'basier_circleregular';
+	color: var(--slate);
+	padding: 0px 0px 5px 0px;
+}
+
+.my-comp-email a{
+	font-size: 12px;
+	font-family: 'basier_circlesemibold';
+	color: var(--algae) !important;
+	text-decoration: underline;
+}
+
+.my-comp-email a:hover{
+	color: var(--slate) !important;
+}
+
+.my-comp-remove{
+	font-size: 12px;
+	font-family: 'basier_circleregular';
+	color: var(--battleship-grey) !important;
+	text-decoration: underline;
+}
+
+.left-side-button-my-comps{
+	display: block;
+	width: 100%;
+	order: 2;
+}
+
+.right-side-button-my-comps{
+	display: block;
+	width: 100%;
+	order: 1;
+	padding-bottom: 10px;
+}
+
+.my-comps-view-closed-jobs{
+	display: block;
+	width: max-content;
+	padding: 10px 21px;
+	color: var(--slate);
+	border-radius: 22px;
+	background-color:  transparent;
+	font-size: 12px;
+	font-family: 'basier_circleregular';
+	text-decoration: underline;
+}
+
+.my-comps-view-open-jobs{
+	display: block;
+	width: max-content;
+	padding: 10px 21px;
+	color: white;
+	border-radius: 22px;
+	background-color: var(--algae);
+	font-size: 12px;
+	font-family: 'basier_circlesemibold';
+	transition: all 0.5s ease-in-out;
+}
+
+.my-comps-view-open-jobs:hover{
+	background-color: var(--slate);
+}
+
+/*INVITE COMPANIES*/
+/*----------------------------------*/
+/* MY COMPANIES*/
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+.stunet-text-what-kindof-mycomp-invite{
+	font-size: 14px;
+	font-family: 'basier_circlebold';
+	color: var(--slate);
+	padding-top: 6px;
+}
+
+.stunet-text-what-kindof-mycomp-invite span{
+	font-family: 'basier_circleregular' !important;
+}
+
+.blue-card-my-comps-container-invite{
+	display: block;
+    background-color: #f6f8f7;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.flex-my-comp-container-invite{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.left-side-comp-my-child-invite{
+	display: block;
+	width: 100%;
+	margin-right: 30px;
+}
+
+.right-side-comp-my-child-invite{
+	display: block;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.right-side-comp-my-child-buttons-invite{
+	display: flex;
+	width: 100%;
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+
+.my-comp-avatar-image-invite{
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 10px;
+}
+
+.my-comp-name-invite{
+	font-size: 20px;
+	font-family: 'basier_circlebold';
+	color: var(--slate);
+	padding: 0px 0px 10px 0px;
+}
+
+.my-comp-name-invite span{
+	font-size: 12px !important;
+	font-family: 'basier_circleregular' !important;
+	color: var(--slate);
+}
+
+.my-comp-contact-name-invite{
+	font-size: 16px;
+	font-family: 'basier_circlesemibold';
+	color: var(--slate);
+	padding: 0px 0px 5px 0px;
+}
+
+.my-comp-contact-invite{
+	font-size: 14px;
+	font-family: 'basier_circlesemibold';
+	color: var(--slate);
+	padding: 0px 0px 5px 0px;
+}
+
+.my-comp-email-invite{
+	font-size: 14px;
+	font-family: 'basier_circleregular';
+	color: var(--slate);
+	padding: 0px 0px 5px 0px;
+}
+
+.my-comp-email-invite a{
+	font-size: 12px;
+	font-family: 'basier_circlesemibold';
+	color: var(--algae) !important;
+	text-decoration: underline;
+}
+
+.my-comp-email-invite a:hover{
+	color: var(--slate) !important;
+}
+
+.my-comp-remove-invite{
+	font-size: 12px;
+	font-family: 'basier_circleregular';
+	color: var(--battleship-grey) !important;
+	text-decoration: underline;
+}
+
+.right-side-button-my-comps-invite{
+	display: block;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.my-comps-view-open-jobs-invite{
+	display: block;
+	width: max-content;
+	padding: 10px 38px;
+	color: white;
+	border-radius: 22px;
+	background-color: var(--algae);
+	font-size: 12px;
+	font-family: 'basier_circlesemibold';
+	transition: all 0.5s ease-in-out;
+}
+
+.my-comps-view-open-jobs-invite:hover{
+background-color: var(--slate);
+}
+
+
+.my-comps-view-open-jobs-invited{
+	display: block;
+	width: max-content;
+	padding: 10px 38px;
+	color: #6e7176;
+	border-radius: 22px;
+	background-color: #e6ebeb;
+	font-size: 12px;
+	font-family: 'basier_circlesemibold';
+	transition: all 0.5s ease-in-out;
+}
+
+/* INVITE BANNER*/
+/*-=------------------------------*/
+
+.invite-nabber-flex{
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	padding: 23px 30px;
+	border-radius: 10px;
+	background-color: rgba(95, 89, 247, 0.1);
+	margin-bottom: 15px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.left-side-banner-child-invite{
+	display: block;
+	width: 100%;
+	color: rgba(95, 89, 247, 0.7);
+	font-family: 'basier_circlebold';
+	font-size: 16px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.right-side-banner-child-invite{
+	display: block;
+	width: 100%;
+}
+
+.banner-invite-main-button{
+	width: max-content;
+	margin: 0px auto;
+	padding: 0px 38px;
+	height: 44px;
+	line-height: 46px;
+	color: #5f59f7;
+	border: 1px solid #5f59f7;
+	border-radius: 22px;
+	font-family: 'basier_circlesemibold';
+	transition: all 0.5s ease-in-out;
+	text-align: center;
+}
+
+.banner-invite-main-button:hover{
+	background-color:#5f59f7;
+	color: white;
+}
+
+
+@media(min-width: 824px){
+	.jbs-pagination-container{
+		width: max-content;
+		margin: 0px 0px 0px auto;
+	}
+
+	.by-major-rihgt-white-container{
+		padding: 30px 30px 20px 30px;
+	}
+
+	.top-rect-flex-container{
+		display: flex;
+		width: max-content;
+		flex-wrap: nowrap;
+		padding-top: 6px;
+	}
+
+	.new-jobs-inducrty-text{
+		padding: 12px 0px;
+	}
+	
+	/* COMPANIES*/
+	.left-side-comp-my-child{
+		width: max-content;
+	}
+	
+	.right-side-comp-my-child{
+		display: block;
+		width: 100%;
+		padding-top: 0px;
+	}
+	
+	.right-side-comp-my-child-buttons{
+		display: flex;
+		width: 100%;
+		padding-top: 70px;
+	}
+
+	.flex-my-comp-container{
+		flex-wrap: nowrap;
+	}
+
+	.left-side-button-my-comps{
+		width: 50%;
+		order: 1;
+	}
+	
+	.right-side-button-my-comps{
+		padding-bottom: 0px;
+		width: 50%;
+		order: 2;
+	}
+
+	/* Invite*/
+	.left-side-comp-my-child-invite{
+		width: max-content;
+	}
+	
+	.right-side-comp-my-child-invite{
+		display: block;
+		width: 100%;
+		padding-top: 0px;
+	}
+	
+	.right-side-comp-my-child-buttons-invite{
+		display: flex;
+		width: 100%;
+		padding-top: 70px;
+	}
+
+	.flex-my-comp-container-invite{
+		flex-wrap: nowrap;
+	}
+
+	.my-comps-view-open-jobs-invite{
+		margin: 0px 0px 0px auto;
+	}
+	
+	.my-comps-view-open-jobs-invited{
+		margin: 0px 0px 0px auto;
+	}
+	
+	.left-side-banner-child-invite{
+		width: max-content;
+		line-height: 46px;
+		padding-bottom: 0px;
+		text-align: left;
+		margin-bottom: 0px;
+	}
+
+	.right-side-banner-child-invite{
+		width: max-content;
+		margin: 0px 0px;
+	}
+
+	.invite-nabber-flex{
+		padding: 13px 30px;
+	}
+	
+}
